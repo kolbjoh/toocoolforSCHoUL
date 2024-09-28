@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Norsk Læringsspill</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Inkluder Animate.css for animasjoner -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div id="troll-container"></div>
+
+    <h1>Norsk Læringsspill</h1>
+
+    <!-- Quiz-seksjon -->
+    <div id="quiz-container" class="game-section">
+        <h2>Quiz</h2>
+        <!-- Flytt knappen til toppen -->
+        <button id="submit-quiz">Start Quiz</button>
+        <div id="quiz"></div>
+        <div id="timer">Tid igjen: <span id="time">60</span> sekunder</div>
+        <div id="quiz-result"></div>
+    </div>
+
+    <!-- Kryssord-seksjon -->
+    <div id="crossword-container" class="game-section">
+        <h2>Kryssord</h2>
+        <table id="crossword-table"></table>
+        <div id="clues">
+            <h3>Ledetråder</h3>
+            <h4>Vannrett</h4>
+            <ol id="across-clues"></ol>
+            <h4>Loddrett</h4>
+            <ol id="down-clues"></ol>
+        </div>
+        <button id="check-crossword">Sjekk Kryssord</button>
+        <div id="crossword-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
