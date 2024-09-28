@@ -60,31 +60,57 @@ function startTrollAnimation() {
 // Quiz-data
 const quizQuestions = [
     {
-        question: "Hva betyr ordet 'bok' på norsk?",
-        options: ["Båt", "Hus", "Tre", "Bok"],
-        answer: 3
-    },
-    {
-        question: "Hva er hovedstaden i Norge?",
-        options: ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+        question: "Hva er Norges eldste universitet?",
+        options: ["Universitetet i Oslo", "NTNU", "Universitetet i Bergen", "Universitetet i Tromsø"],
         answer: 0
     },
     {
-        question: "Hvordan sier man 'takk' på norsk?",
-        options: ["Hei", "Takk", "Vær så god", "Unnskyld"],
+        question: "Hvilken norsk forfatter mottok Nobelprisen i litteratur i 1920?",
+        options: ["Henrik Ibsen", "Knut Hamsun", "Sigrid Undset", "Bjørnstjerne Bjørnson"],
         answer: 1
     },
     {
-        question: "Hvilket av disse er et norsk fjell?",
-        options: ["Himalaya", "Galdhøpiggen", "Alpene", "Rocky Mountains"],
+        question: "Hva er Norges nasjonalblomst?",
+        options: ["Blåveis", "Røsslyng", "Bjørk", "Prestekrage"],
+        answer: 3
+    },
+    {
+        question: "Hva var Norges viktigste eksportvare på 1800-tallet?",
+        options: ["Tømmer", "Fisk", "Olje", "Sild"],
         answer: 1
     },
     {
-        question: "Hva heter Norges lengste elv?",
-        options: ["Nilen", "Amazonas", "Glomma", "Donau"],
-        answer: 2
+        question: "Når ble Norge en selvstendig nasjon, etter unionsoppløsningen med Sverige?",
+        options: ["1814", "1905", "1945", "1972"],
+        answer: 1
+    },
+    {
+        question: "Hva heter Norges største isbre?",
+        options: ["Jostedalsbreen", "Folgefonna", "Hardangerjøkulen", "Svartisen"],
+        answer: 0
+    },
+    {
+        question: "Hvilket hav ligger vest for Norge?",
+        options: ["Atlanterhavet", "Stillehavet", "Det indiske hav", "Barentshavet"],
+        answer: 0
+    },
+    {
+        question: "Hvilken norsk dramatiker er kjent for stykket 'Et dukkehjem'?",
+        options: ["Henrik Ibsen", "Bjørnstjerne Bjørnson", "Knut Hamsun", "Jon Fosse"],
+        answer: 0
+    },
+    {
+        question: "Hva var Norges første oljeplattform?",
+        options: ["Statfjord", "Ekofisk", "Troll", "Oseberg"],
+        answer: 1
+    },
+    {
+        question: "Hvem var Norges statsminister under andre verdenskrig?",
+        options: ["Vidkun Quisling", "Jens Stoltenberg", "Trygve Bratteli", "Johan Nygaardsvold"],
+        answer: 3
     }
 ];
+
 
 // Variabler for quiz-timer
 let timeLeft = 60;
